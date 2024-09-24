@@ -11,10 +11,10 @@ conda create -n <가상환경_이름> python=<파이썬_버전>
 - **예시:**
 
 ```bash
-conda create -n mecab python=3.8.0
+conda create -n tech7 python=3.9.0
 ```
 
-이 명령어는 `mecab`이라는 이름의 가상 환경을 Python 3.8.0 버전으로 생성합니다.
+이 명령어는 `tech7`이라는 이름의 가상 환경을 Python 3.8.0 버전으로 생성합니다.
 
 ---
 
@@ -29,7 +29,7 @@ conda activate <가상환경_이름>
 - **예시:**
 
 ```bash
-conda activate mecab
+conda activate tech7
 ```
 
 ---
@@ -55,7 +55,7 @@ python -m ipykernel install --user --name <가상환경_이름> --display-name "
 - **예시:**
 
 ```bash
-python -m ipykernel install --user --name mecab --display-name "mecab"
+python -m ipykernel install --user --name tech7 --display-name "tech7"
 ```
 
 - `--name <가상환경_이름>`: Conda에서 사용할 가상 환경의 이름을 지정합니다.
